@@ -1,3 +1,3 @@
 FROM rocker/shiny
 # Install more R packages like this:
-RUN . /etc/environment && R -e "install.packages(c('ROCR', 'gbm'), repos='$MRAN')"
+RUN . /etc/environment && R -e "install.packages(c('dplyr', 'ggplot2'), repos='$MRAN')"
